@@ -43,7 +43,7 @@
 /*Home*/
 #home {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background: rgba(0,0,0,0.9);
     text-align: center;
 }
@@ -60,13 +60,13 @@
 .banner-text h3 {
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 10px;
 }
 .banner-text p {
     color: #fff;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 5px;
 }
 
