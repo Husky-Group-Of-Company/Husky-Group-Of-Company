@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--Navigation--*/
+#nav-bar {
+    /*position: sticky;
+    top: 0;*/
+    z-index: 10;
+}
+.navbar-brand img {
+    width: 200px;
+    height: 100px;
+    padding-left: 30px;
+}
+.navbar-brand  h1 span {
+    font-size: 22px;
+    color: #fff;
+    padding: 5px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+}
+#nav-bar ul li a:hover {
+    color: rgba(0, 0, 0, 0.575)!important;
+}
+/*.navbar {
+    background: #fff;
+}*/
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*Home*/
+#home {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+}
+.banner-text {
+    position: absolute;
+    top: 40vh;
+    left: 20vh;
+    /*transform: translate(-50%, -50%);*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.banner-text h2 {
+    color: #fff;
+    font-weight: bold;
+}
+.banner-text p {
+    color: #fff;
+    font-weight: bold;
+}
+.banner-text h2 {
+    padding: 5px;
+    font-size: 30px;
+}
+.banner-text p {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+/*--About--*/
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content {
+    padding-top: 20px;
+}
+.skills-bar p {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar {
+    border-radius: 16px;
+}
+.progress {
+    border-radius: 16px !important;
+}
+
+/*--Get in Touch--*/
+#contact {
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form {
+	padding: 15px;
+}
+.form-control {
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder {
+	color: #999 !important;
+}
+.follow {
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+.contact-info .fa {
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+/* Apply */
+#apply {
+    width: 100%;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.apply-head {
+    display: -block;
+    padding: 10px 9px 8px 5px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 128, 0);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-bottom: 2px solid red;
+    transition: 0.7s;
+}
+.apply-title h2 {
+    text-align: left;
+    padding-left: 20px;
+}
+form table {
+    height: 400px; 
+    width: 80%;
+    margin-left: 20px;
+}
+form table input {
+    width: 100%;
+    height: 100%;
+}
+form .note {
+    padding: 20px;
+} 
+/*.form {
+    width: 650px;
+    height: auto;
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid red;
+}
+.form .form-header {
+    display: flex;
+    justify-content: space-between;
+}
+.form .form-header p {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.form .form-header img {
+    width: 200px;
+}
+.form table {
+    border: none;
+}
+.form table tr th input,textarea {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.form table tr th.head {
+    text-align: left;
+    font-size: 20px;
+}
+.sign {
+    margin: 20px;
+    float: right;
+}
+.sign input {
+    width: 300px;
+    border-top: none; 
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #000;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+}
+::placeholder {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.sign input:hover {
+    border-top: none; 
+    border-left: none;
+    border-right: none;
+}*/
+/*.sub {
+    justify-content: center;
+    text-align: center;
+}
+.sub .btn {
+    display: inline-block;
+    padding: 10px 9px 8px 5px;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+.sub .btn:hover {
+    background: green;
+    color: red;
+    letter-spacing: 4px;
+}*/
+.btn {
+    margin: 30px;
+}
+footer .last-note {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.note {
+    padding: 30px;
+}
+.success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.success img {
+    width: 100px;
+}
+.success .suc {
+    color: green;
+    font-size: 30px;
+}
+.success .h-s {
+    font-weight: bold;
+    font-size: 25px;
+}
+.success .thank{
+    font-weight: bold;
+    font-size: 20px;
+}
+.success .pass,.app{
+    font-size: 20px;
+}
+.success .pass {
+    color: red;
+}
+#footer .last-footer img {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+#footer .last-footer span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#footer .last-footer h5 {
+    font-size: 18px;
+    color: #fff;
+    padding: 20px;
+}
+
+
